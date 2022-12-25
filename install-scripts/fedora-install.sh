@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This will install all fedora packages using the dnf pacakge manager
+# This will install all fedora packages using the dnf package manager
 # Tested on Fedora 37.
 
 packages_list=(
