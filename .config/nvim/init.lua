@@ -14,5 +14,22 @@ vim.opt.runtimepath:prepend(lazypath)
 
 -- Packages for nvim
 require("lazy").setup({
-        'Yazeed1s/minimal.nvim',
+        -- Theme
+	'Yazeed1s/minimal.nvim',
+	
+	-- LSP Packages
+    	"williamboman/mason.nvim",
+    	"williamboman/mason-lspconfig.nvim",
+    	"neovim/nvim-lspconfig",
+
+	-- Code Autocompletion
+	{"neoclide/coc.nvim", branch="release"},
 })
+
+-- LSP Management
+-- DO NOT change the order of these.
+require("mason").setup()
+require("mason-lspconfig").setup()
+
+-- Actual LSP setups
+require("lspconfig").clangd.setup {}	-- C, C++
