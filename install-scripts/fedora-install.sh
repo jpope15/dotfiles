@@ -26,5 +26,5 @@ sudo dnf -y install ${packages_list[*]}
 # Cloning my dotfiles repo now that all packages are installed.
 yadm clone https://github.com/jpope15/dotfiles.git
 
-# Compiling packer for nvim
-nvim +PackerSync
+# Setting up nvim using lazy.nvim
+nvim --headless "+Lazy! sync" +qa
