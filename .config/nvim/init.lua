@@ -1,4 +1,3 @@
--- Bootstrapping lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
@@ -13,18 +12,7 @@ end
 vim.opt.runtimepath:prepend(lazypath)
 
 -- Packages for nvim
-require("lazy").setup({
-        -- Theme
-	'Yazeed1s/minimal.nvim',
-	
-	-- LSP Packages
-    	"williamboman/mason.nvim",
-    	"williamboman/mason-lspconfig.nvim",
-    	"neovim/nvim-lspconfig",
-
-	-- Code Autocompletion
-	{"neoclide/coc.nvim", branch="release"},
-})
+require("lazy").setup("plugins")
 
 -- LSP Management
 -- DO NOT change the order of these.
