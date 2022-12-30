@@ -17,13 +17,13 @@ require("lazy").setup({
 	'Yazeed1s/minimal.nvim',
 	
 	-- LSP Packages
-    "williamboman/mason.nvim",
-    "williamboman/mason-lspconfig.nvim",
-	"neovim/nvim-lspconfig",
+  	"williamboman/mason.nvim",
+   	"williamboman/mason-lspconfig.nvim",
+   	"neovim/nvim-lspconfig",
 
 	-- Code Autocompletion
 	{"neoclide/coc.nvim", branch="release"},
     
-    -- Treesitter (syntax highlighting)
-    "nvim-treesitter/nvim-treesitter", 
+    	-- Treesitter (syntax highlighting)
+	"nvim-treesitter/nvim-treesitter", {"do": ":TSUpdate"}},   
 })
