@@ -143,30 +143,42 @@ font:
 #draw_bold_text_with_bright_colors: false
 # Colors (Tomorrow Night Bright)
 colors:
-  name: Dawn
-  author: Escapist
+
+  # Default colors
   primary:
-    background: "#181B20"
-    foreground: "#9B9081"
-  cursor:
-    text: "#181B20"
-    cursor: "#9B9081"
+    background: '#282828'
+    foreground: '#fdf4c1'
+
+  # Normal colors
   normal:
-    black: "#353535"
-    red: "#744B40"
-    green: "#6D6137"
-    yellow: "#765636"
-    blue: "#61564B"
-    magenta: "#6B4A49"
-    cyan: "#435861"
-    white: "#B3B3B3"
+    black: '#282828'
+    red: '#9d0006'
+    green: '#79740e'
+    yellow: '#b57614'
+    blue: '#076678'
+    magenta: '#8f3f71'
+    cyan: '#00a7af'
+    white: '#fdf4c1'
+
+  # Bright colors
   bright:
-    black: "#5F5F5F"
-    red: "#785850"
-    green: "#6F6749"
-    yellow: "#776049"
-    blue: "#696057"
-    magenta: "#6F5A59"
-    cyan: "#525F66"
-    white: "#CDCDCD"
-theme: Dawn
+    black: '#32302f'
+    red: '#fb4933'
+    green: '#b8bb26'
+    yellow: '#fabd2f'
+    blue: '#83a598'
+    magenta: '#d3869b'
+    cyan: '#3fd7e5'
+    white: '#ffffc8'
+
+  # Dim colors (Optional)
+  dim:
+    black: '#1d2021'
+    red: '#421e1e'
+    green: '#232b0f'
+    yellow: '#4d3b27'
+    blue: '#2b3c44'
+    magenta: '#4e3d45'
+    cyan: '#205161'
+    white: '#f4e8ba'
+theme: Darktooth
