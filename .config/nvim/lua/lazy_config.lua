@@ -25,5 +25,5 @@ require("lazy").setup({
 	{"neoclide/coc.nvim", branch="release"},
     
     	-- Treesitter (syntax highlighting)
-	"nvim-treesitter/nvim-treesitter", {"do": ":TSUpdate"}},   
+	"nvim-treesitter/nvim-treesitter",
 })
