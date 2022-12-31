@@ -14,6 +14,7 @@ packages_list=(
 	perf
 	valgrind
 	yadm
+    neofetch
 )
 
 # First, enabling the RPM fusion free library.
