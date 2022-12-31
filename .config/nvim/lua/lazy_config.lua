@@ -24,6 +24,9 @@ require("lazy").setup({
 	-- Code Autocompletion
 	{"neoclide/coc.nvim", branch="release"},
     
-    	-- Treesitter (syntax highlighting)
+    -- Treesitter
 	"nvim-treesitter/nvim-treesitter",
+
+    -- Git signs
+    'lewis6991/gitsigns.nvim',
 })
