@@ -27,7 +27,6 @@ o.number = true
 o.relativenumber = true
 o.wrap = true
 o.signcolumn = "yes"
-o.colorcolumn = "80"
 o.background = "dark"
 o.cursorline = false
 
