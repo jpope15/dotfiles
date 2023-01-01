@@ -1,3 +1,8 @@
 CompileFlags:
   Add: [--std=c++17, -Wall, -Wextra, -Werror, -O0]
   Compiler: g++
+
+Diagnostics:
+  ClangTidy:
+    Add: bugprone* clang* google* modernize* performance* readability*  
+  UnusedIncludes: Strict
