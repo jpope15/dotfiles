@@ -25,3 +25,16 @@ key_mapper("n", "<leader>-", ":resize -10 <CR>")
 key_mapper("n", "<leader>+", ":resize +10 <CR>")
 key_mapper("n", "<leader>>", ":vertical resize +10 <CR>")
 key_mapper("n", "<leader><", ":vertical resize -10 <CR>")
+
+-- LSP
+key_mapper("n", "gD", ":lua vim.lsp.buf.declaration() <CR>")
+key_mapper("n", "gd", ":lua vim.lsp.buf.definition() <CR>")
+key_mapper("n", "gi", ":lua vim.lsp.buf.implementation() <CR>")
+key_mapper("n", "<C-s>", ":lua vim.lsp.buf.signature_help() <CR>")
+key_mapper("n", "<space>D", ":lua vim.lsp.buf.type_definition() <CR>")
+key_mapper("n", "gr", ":lua vim.lsp.buf.references() <CR>")
+key_mapper("n", "<space>e", ":lua vim.diagnostic.open_float() <CR>")
+key_mapper("n", "K", ":lua vim.lsp.buf.hover()<CR>")
+key_mapper("n", "<space>rn", ":lua vim.lsp.buf.rename()<CR>")
+key_mapper("n", "<leader>fo", ":lua vim.lsp.buf.formatting()<CR>")
+
