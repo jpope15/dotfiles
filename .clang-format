@@ -1,0 +1,3 @@
+# C++ config, based on LLVM style
+BasedOnStyle: LLVM
+IndentWidth: 4
