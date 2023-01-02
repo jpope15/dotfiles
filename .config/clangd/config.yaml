@@ -6,3 +6,8 @@ Diagnostics:
   ClangTidy:
     Add: bugprone* clang* google* modernize* performance* readability*  
   UnusedIncludes: Strict
+
+InlayHints:
+  Enabled: No
+  ParameterNames: No
+  DeducedTypes: No
