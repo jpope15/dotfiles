@@ -15,6 +15,7 @@ packages_list=(
 	valgrind
 	yadm
     neofetch
+    powertop
 )
 
 # First, enabling the RPM fusion free library.
