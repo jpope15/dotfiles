@@ -16,6 +16,7 @@ packages_list=(
 	yadm
     neofetch
     powertop
+    clang
 )
 
 # First, enabling the RPM fusion free library.
