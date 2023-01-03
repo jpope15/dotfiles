@@ -1,6 +1,6 @@
 CompileFlags:
   Add: [--std=c++17, -Wall, -Wextra, -Werror, -O0]
-  Compiler: g++
+  Compiler: clang
 
 Diagnostics:
   ClangTidy:
