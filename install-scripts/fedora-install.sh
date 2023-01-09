@@ -17,6 +17,7 @@ packages_list=(
     neofetch
     powertop
     clang
+    ninja-build
 )
 
 # First, enabling the RPM fusion free library.
