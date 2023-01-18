@@ -31,5 +31,10 @@ require("lazy").setup({
     'lewis6991/gitsigns.nvim',
     
     -- Colorscheme
-    'JoosepAlviste/palenightfall.nvim'
+    'JoosepAlviste/palenightfall.nvim',
+    
+    -- Telescope
+    'nvim-lua/plenary.nvim',
+    'nvim-telescope/telescope.nvim'
+
 })
