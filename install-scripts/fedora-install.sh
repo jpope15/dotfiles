@@ -18,6 +18,7 @@ packages_list=(
     powertop
     clang
     ninja-build
+    ripgrep
 )
 
 # First, enabling the RPM fusion free library.
