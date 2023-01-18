@@ -29,4 +29,7 @@ require("lazy").setup({
 
     -- Git signs
     'lewis6991/gitsigns.nvim',
+    
+    -- Colorscheme
+    'JoosepAlviste/palenightfall.nvim'
 })
