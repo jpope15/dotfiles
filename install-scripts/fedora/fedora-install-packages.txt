@@ -1,0 +1,16 @@
+alacritty
+btop
+cmake
+gcc
+ffmpeg-libs
+npm
+ocaml
+perf
+valgrind
+yadm
+neofetch
+powertop
+clang
+ninja-build
+ripgrep
+neovim
