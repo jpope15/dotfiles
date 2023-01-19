@@ -1,27 +1,9 @@
 #!/bin/bash
 
-# This will install all fedora packages using the dnf package manager
-# Tested on Fedora 37.
+# Installing all the pacakges using another script I made.
+./install-pacakges.sh
 
-packages_list=(
-	alacritty
-	btop
-	cmake
-	gcc
-	ffmpeg-libs
-	npm
-	ocaml
-	perf
-	valgrind
-	yadm
-    neofetch
-    powertop
-    clang
-    ninja-build
-    ripgrep
-)
-
-# First, enabling the RPM fusion free library.
+# Enabling the RPM fusion free library.
 sudo dnf install \
   https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 
