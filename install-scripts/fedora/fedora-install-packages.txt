@@ -16,3 +16,4 @@ ripgrep
 neovim
 wireshark
 tcpdump
+httpd
