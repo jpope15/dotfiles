@@ -4,7 +4,7 @@
 #
 # Example usage: $ ap cmake 
 function ap() {
-    local config_file=~/install-scripts/fedora/fedora-install-packages.txt 
+    local config_file=~/.config/install-deps/fedora-install-packages.txt
     
     # checking if the package is already in the config_file
     if cat $config_file | grep -q "$@"; then
