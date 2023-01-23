@@ -17,3 +17,4 @@ neovim
 wireshark
 tcpdump
 httpd
+mediawriter
