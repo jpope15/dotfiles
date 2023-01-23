@@ -36,5 +36,10 @@ require("lazy").setup({
     -- Telescope
     'nvim-lua/plenary.nvim',
     'nvim-telescope/telescope.nvim',
-    { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make', cond = vim.fn.executable "make" == 1 }
+    { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make', cond = vim.fn.executable "make" == 1 },
+    -- Markdown
+    {
+        'iamcco/markdown-preview.nvim',
+        config = function() vim.fn["mkdp#util#install"]() end,
+    },
 })
