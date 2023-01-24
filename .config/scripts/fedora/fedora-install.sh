@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Installing all the pacakges using another script I made.
-./install-pacakges.sh
+packages/install-pacakges.sh
 
 # Enabling the RPM fusion free library.
 sudo dnf install \
