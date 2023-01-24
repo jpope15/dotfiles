@@ -18,3 +18,4 @@ wireshark
 tcpdump
 httpd
 mediawriter
+tmux
