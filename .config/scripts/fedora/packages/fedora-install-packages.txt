@@ -19,3 +19,4 @@ tcpdump
 httpd
 mediawriter
 tmux
+flex
