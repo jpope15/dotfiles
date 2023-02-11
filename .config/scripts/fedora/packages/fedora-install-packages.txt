@@ -21,3 +21,4 @@ mediawriter
 tmux
 flex
 libpcap
+libpcap-devel
