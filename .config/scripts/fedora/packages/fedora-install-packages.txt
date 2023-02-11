@@ -20,3 +20,4 @@ httpd
 mediawriter
 tmux
 flex
+libpcap
