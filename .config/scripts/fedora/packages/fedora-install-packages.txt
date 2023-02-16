@@ -20,6 +20,5 @@ httpd
 mediawriter
 tmux
 flex
-libpcap
 libpcap-devel
 jsoncpp-devel
