@@ -25,3 +25,4 @@ jsoncpp-devel
 bison
 firefox
 nspr
+zip
