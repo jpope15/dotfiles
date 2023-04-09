@@ -17,7 +17,8 @@ def count_lines_by_extension(directory, valid_extensions=None, recursive=False):
             file_path = os.path.join(root, file)
             if valid_extensions is None:
                 ext = os.path.splitext(file_path)[-1]
-                lines_by_extension[ext] += count_lines(file_path)
+                if ext != "":
+                    lines_by_extension[ext] += count_lines(file_path)
             else:
                 for ext in valid_extensions:
                     if fnmatch(file_path, ext):
