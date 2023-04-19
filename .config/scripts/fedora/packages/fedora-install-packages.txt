@@ -27,3 +27,4 @@ firefox
 nspr
 zip
 python3-pandas
+hotspot
