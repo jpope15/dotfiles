@@ -28,3 +28,4 @@ nspr
 zip
 python3-pandas
 hotspot
+gtest-devel
