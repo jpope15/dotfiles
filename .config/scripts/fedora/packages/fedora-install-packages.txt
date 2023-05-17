@@ -29,3 +29,4 @@ zip
 python3-pandas
 hotspot
 gtest-devel
+xz-devel
