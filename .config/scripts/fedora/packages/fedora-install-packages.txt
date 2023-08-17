@@ -34,3 +34,4 @@ lzma
 darktable
 wine
 wine-common
+winetricks
