@@ -33,3 +33,4 @@ xz-devel
 lzma
 darktable
 wine
+wine-common
