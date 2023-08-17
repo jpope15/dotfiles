@@ -32,3 +32,4 @@ gtest-devel
 xz-devel
 lzma
 darktable
+wine
