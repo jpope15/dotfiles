@@ -31,3 +31,4 @@ hotspot
 gtest-devel
 xz-devel
 lzma
+darktable
