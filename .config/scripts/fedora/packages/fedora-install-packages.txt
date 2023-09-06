@@ -35,3 +35,4 @@ darktable
 wine
 wine-common
 winetricks
+ghc-compiler
