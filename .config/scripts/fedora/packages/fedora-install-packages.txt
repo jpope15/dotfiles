@@ -36,3 +36,5 @@ wine
 wine-common
 winetricks
 ghc-compiler
+gcc gcc-c++ gmp gmp-devel make ncurses ncurses-compat-libs xz perl
+openvpn
