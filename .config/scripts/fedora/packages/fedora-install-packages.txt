@@ -39,3 +39,4 @@ gcc gcc-c++ gmp gmp-devel make ncurses ncurses-compat-libs xz perl
 openvpn
 ncurses-devel
 dotnet
+swift-lang
