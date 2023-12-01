@@ -40,3 +40,4 @@ openvpn
 ncurses-devel
 dotnet
 swift-lang
+opam
