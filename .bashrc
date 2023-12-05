@@ -41,7 +41,7 @@ unset rc
 
 
 function rm() {
-    local BLACKLISTED_DIRECTORIES=("/home/jamespope", "/home/jamespope/.config", "/home/jamespope/Downloads") 
+    local BLACKLISTED_DIRECTORIES=("/home/jamespope", "/home/jamespope/.config") 
     local CURRENT_DIRECTORY=$(pwd)
 
     # Check if the current directory is blacklisted
