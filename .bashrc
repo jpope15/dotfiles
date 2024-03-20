@@ -116,6 +116,10 @@ if ! shopt -oq posix; then
   fi
 fi 
 
+
+#Export nvim path (had to build from source
+PATH="$HOME/bin/nvim-linux64/bin:$PATH"
+
 # Set default editor to nvim
 export EDITOR="/usr/bin/nvim"
 
