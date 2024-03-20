@@ -1,0 +1,7 @@
+require("lazy_config")
+require("lsp_config")
+require("options_config")
+require("treesitter_config")
+require("keymaps_config")
+require("colorscheme_config")
+require("gitsigns").setup()
