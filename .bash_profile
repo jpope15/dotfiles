@@ -9,3 +9,6 @@ fi
 
 # opam configuration
 test -r /home/jamespope/.opam/opam-init/init.sh && . /home/jamespope/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
+export PATH="/opt/homebrew/opt/bison/bin:$PATH"
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
